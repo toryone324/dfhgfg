@@ -1,0 +1,7 @@
+echo "# fork-for-u" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/toryone324/fork-for-u.git
+git push -u origin main
